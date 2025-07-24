@@ -1,0 +1,272 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: 50px 0px 200px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h1{
+      font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    color: #6E5353;
+    font-family: "Kiwi Maru", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    color: #6E5353;
+        font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+p{
+    color: #6E5353;
+}
+
+.box p {
+    padding: 50px;
+    color: #6E5353;
+}
+
+header {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    background-color: #FF9794;
+    color: #fff;
+}
+
+
+
+.flex{
+    display: flex;
+        padding: 0 20px;
+    gap: 10px;
+}
+
+.flex img{
+    display: flex;
+    width: 60px;
+    height: 54px;
+    align-items: flex-start;
+}
+
+
+.item .flex{
+    display: flex;
+    padding: 0;
+    gap: 10px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.flex h3{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.item .flex img{
+    display: flex;
+    width: 60px;
+    height: 54px;
+    align-items: flex-start;
+}
+
+.box-text p{
+    padding: 20px;
+}
+
+.small-text{
+    display: flex;
+    padding: 0;
+    margin: 0;
+align-items: center;
+gap: 20px;
+}
+
+.small-text p{
+    font-size: 15px;
+    padding: 20px;
+    margin: 0;
+
+}
+
+.small-text h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+     color: #6E5353;
+        font-family: "Kiwi Maru", serif;
+    font-weight: 600;
+}
+
+.visual {
+    text-align: center;
+}
+
+
+.box {
+    text-align: center;
+}
+
+.box-img,
+.box-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+     width: 500px;
+    height: 350px;
+}
+
+
+.box-text {
+    padding: 10px 0px;
+    width: 470px;
+    height: 350px;
+    gap: 50;
+}
+
+.item img{
+    width: 420px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+.list {
+    display: flex;
+    width: 190px;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+    justify-content: center;
+}
+
+.item {
+display: flex;
+width: 419px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+
+menu {
+    text-align: center;
+    align-items: center;
+}
+
+.slide-item img{
+    object-fit: cover;
+    height: 200px;
+    align-self: stretch;
+    border-radius: 5px;
+}
+
+
+/* ボタン */
+.link-btn {
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+        color: #ffffff;
+    background-color: #FF9794;
+    border-radius: 50px;
+    text-decoration: none;
+            font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.link-btn:hover {
+    background: #fff;
+    color: #FF9794;
+    border: 2px solid #FF9794;
+}
+
+.btn-area{
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* スライダー */
+.slider-1,
+.slider-2 {
+    /* display: flex; */
+    /* 追加 */
+    width: 1030px;
+    margin: auto;
+    padding: 0;
+}
+
+/* スライド */
+.slide-item {
+    /* 左右の隙間 */
+    margin: 0 10px;
+}
+
+.slide-item img {
+    max-width: 100%;
+}
+
+/* 左右ボタン共通 */
+.slick-next,
+.slick-prev {
+    /* 位置（垂直） */
+    top: 45%;
+}
+.slick-next::before,
+.slick-prev::before {
+    /* 色 */
+    color: #FF9794;
+    /* サイズ */
+    font-size: 30px;
+}
+
+/* 右ボタン */
+.slick-next {
+    /* 位置（水平） */
+    right: -30px; /*左右でややズレあり*/
+}
+
+/* 左ボタン */
+.slick-prev {
+    /* 位置（水平） */
+    left: -40px;
+}
+
+
+footer {
+    display: block;
+    background-color: #FF9794;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 50px;
+}

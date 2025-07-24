@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: 70px 0px 200px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    background-color: #a1a1a1;
+}
+
+.visual {
+    text-align: center;
+}
+
+
+.box {
+    text-align: center;
+}
+
+.box-img,
+.box-text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.box p {
+    padding: 50px;
+}
+
+.box-text {
+    padding: 10px 0px;
+    width: 470px;
+    height: 350px;
+    gap: 50;
+}
+
+.list {
+    display: flex;
+    width: 190px;
+    align-items: center;
+    text-align: center;
+    gap: 90px;
+    justify-content: center;
+}
+
+.item {
+    display: block;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+menu {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+/* ボタン */
+.link-btn {
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #000000;
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link-btn:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.btn-area{
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* スライダー */
+.slider-1,
+.slider-2 {
+    /* display: flex; */
+    /* 追加 */
+    width: 1030px;
+    margin: auto;
+    padding: 0;
+}
+
+/* スライド */
+.slide-item {
+    /* 左右の隙間 */
+    margin: 0 10px;
+}
+
+.slide-item img {
+    max-width: 100%;
+}
+
+/* 左右ボタン共通 */
+.slick-next,
+.slick-prev {
+    /* 位置（垂直） */
+    top: 45%;
+}
+.slick-next::before,
+.slick-prev::before {
+    /* 色 */
+    color: #000;
+    /* サイズ */
+    font-size: 30px;
+}
+
+/* 右ボタン */
+.slick-next {
+    /* 位置（水平） */
+    right: -30px; /*左右でややズレあり*/
+}
+
+/* 左ボタン */
+.slick-prev {
+    /* 位置（水平） */
+    left: -40px;
+}
+
+
+footer {
+    display: block;
+    background-color: #a1a1a1;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 50px;
+}
